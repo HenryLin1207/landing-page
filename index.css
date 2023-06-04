@@ -1,8 +1,26 @@
-body {
-    background-color: lightblue;
+html, body, div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.section1 {
+    background-color: #1F2937;
+    width:100%;
+
   }
   
+.section3 {
+    background-color: #E5E7EB;
+}
   h1 {
-    color: navy;
+    color: #F9FAF8;
     margin-left: 20px;
   }
