@@ -5,20 +5,128 @@ html, body, div{
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color:#F9FAF8;
+  background-color: #1F2937;
+}
+nav li {
+  float: right;
+}
+#logo {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 button{
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10px;
+    padding: 5px 30px ;
+    border: 2px solid #E5E7EB;
+}
+button:active {
+  border: 2px solid #18191a0a;
+  color: #18191a8c;
 }
 .section1 {
     background-color: #1F2937;
-    width:100%;
+    padding: 5%;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+  }
+  .section1 div{
+    display: inline-block;
+    max-width: 50%;
+  }
+  .section1 img{
+    display: inline-block;
+    width: 20%;
 
   }
-  
+.section2 {
+  align-items: center;
+  text-align: center;
+  padding: 5% 20% 5% 20%;
+}
+
+.section2 ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.section2 li{
+  overflow: hidden;
+  float:left;
+  text-align: center;
+  font-size: small;
+  max-width: 15%;
+  padding: 2%;
+}
+
+.section2 li img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.section2 img{
+  border-style: solid;
+  border-color: #3882F6;
+}
+
 .section3 {
     background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 5% 20% 5% 20%;
+}
+.section3 em{
+
+    font-style: italic;
+  font-size: 36px;
+
+  color: #1F2937;
+
+}
+.section3 strong{
+  display: block;
+  text-align: right;
+}
+
+.section4{
+  margin: 5% 20% 5% 20%;
+}
+.section4 div{
+  display: inline-block;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  width: 80%;
+  padding: 5% 10% 5% 10%;
+  border-radius: 10px;
+}
+.section4 button{
+  float:right;
+}
+.section4 strong{
+  display: block;
+}
+.section4 p{
+  display: inline-block;
+  font-size: small;
+  max-width: 60%;
 }
   h1 {
     color: #F9FAF8;
