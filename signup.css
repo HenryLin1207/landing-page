@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+
+    outline: 1px solid red;
+}
+
+body {
+    display: flex;
+    background-color: rgb(240, 229, 216);
+}
+
+.image-container{
+    background-image: url(assets/loginbg.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(253, 235, 212);
+    width: 40%;
+}
+
+.form-container{
+    height: fit-content;
+    width: 60%;
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form-items{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(253, 235, 212);
+    box-shadow: 5px 5px 5px rgba(22, 22, 22, 0.418);
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form-items h1{
+    width: 100%;
+}
+
+.form-items div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.form-items div span{
+    order: -1;
+    align-self:initial;
+    width: 100%;
+}
+.form-items div input{
+    width: 80%;
+}
+span{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
