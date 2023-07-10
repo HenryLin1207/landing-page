@@ -10,7 +10,7 @@
 
 body {
     display: flex;
-    background-color: rgb(240, 229, 216);
+    background-color: rgb(255, 255, 255);
 }
 
 .image-container{
@@ -18,8 +18,17 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgb(253, 235, 212);
+    background-color: #e2dfd0;
     width: 40%;
+    display: flex;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+    align-self: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
 }
 
 .form-container{
@@ -33,7 +42,7 @@ body {
 .form-items{
     display: flex;
     flex-flow: row wrap;
-    background-color: rgb(253, 235, 212);
+    background-color: #ffffff;
     box-shadow: 5px 5px 5px rgba(22, 22, 22, 0.418);
     gap: 20px;
     padding-top: 20px;
@@ -63,3 +72,10 @@ span{
     font-size: 0.7rem;
     text-transform: uppercase;
 }
+
+.submit-container{
+    width: 100%;
+    padding: 10% 0% 10% 0%;
+    display: inline;
+}
+
