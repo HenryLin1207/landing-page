@@ -5,12 +5,13 @@
     font-family: 'Poppins', sans-serif;
     color: var(--txt);
 
-    outline: 1px solid red;
+  
+/*  outline: 1px solid red;*/
 }
 
 body {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 228, 228);
 }
 
 .image-container{
@@ -27,8 +28,9 @@ body {
     color: rgb(255, 255, 255);
     align-self: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgba(255, 255, 255, 0.274);
     text-align: center;
+    padding: 20px;
 }
 
 .form-container{
@@ -45,11 +47,17 @@ body {
     background-color: #ffffff;
     box-shadow: 5px 5px 5px rgba(22, 22, 22, 0.418);
     gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    font-weight: bold;
 }
 .form-items h1{
     width: 100%;
+}
+.form-items input{
+    border-color: #a8a8a8;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 .form-items div{
@@ -65,7 +73,7 @@ body {
 .form-items div input{
     width: 80%;
 }
-span{
+.form-items span{
     display: flex;
     flex-flow: column wrap;
     width: 40%;
@@ -75,7 +83,26 @@ span{
 
 .submit-container{
     width: 100%;
-    padding: 10% 0% 10% 0%;
     display: inline;
+    
 }
+
+.btm-text{
+    width: 100%;
+}
+
+.submit-container button{
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 20px;
+}
+.submit-container p{
+    margin: 20px;
+    display: flex;
+}
+
 
